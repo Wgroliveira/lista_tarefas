@@ -56,17 +56,17 @@ main{
     padding bottom: 32px;}
 
 input{
-    background-color:;
+    background-color: #DCDCDC;
     font-size: 18px;
 }
 
 button{
-    background-color: ;
+    background-color: #DCDCDC ;
     font-size: 18px;
 }
 
 #botao-voltar {
-    background-color:;
+    background-color:#DCDCDC;
 }
 
 #task-list{
