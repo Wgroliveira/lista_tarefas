@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Orbitron', sans-serif;
+}
+
+body{ 
+    background-image: url(./imagem/My\ project-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+.container{
+    max-width: 960px;
+    width: 100%;
+}
+
+header{
+    padding: 32px;
+    margin: 32px;
+    font-size: 24px;
+    text-align: center;
+}
+
+h1{
+    padding: 32px;
+    border-top: 2ps solid silver;
+    }
+
+
+#principal{
+    font-size: 96px;
+}
+
+.centro{ 
+    text-align: center;
+    margin-bottom: 2px;
+    font-size:24px;
+    padding: 24px; 
+}
+
+.span{
+    font-size: 18px;
+}
+
+.center{
+    text-align: center;
+  
+}
+
+main{
+    padding bottom: 32px;}
+
+input{
+    background-color:;
+    font-size: 18px;
+}
+
+button{
+    background-color: ;
+    font-size: 18px;
+}
+
+#botao-voltar {
+    background-color:;
+}
+
+#task-list{
+    cursor: pointer;
+}
+
+.completed {
+    text-decoration: line-through;
+  }
+
+  

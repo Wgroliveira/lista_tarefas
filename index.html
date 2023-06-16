@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de tarefas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="container">
+
+        <header>
+            <h1 id="principal">Casa Nova</h1>
+            <h1>Manutenção Domiciliar</h1> 
+            <button type="button">Adicionar Nova Tarefa</button>
+        </header> 
+
+        <form class="center">
+            <h2>Lista de Tarefas</h2> 
+            <input type="text" id="adiciona-nova-tarefa" required placeholder="Adicionar Tarefa"/>  
+            <button type="submit">Cadastrar</button>  
+            <button type="reset" id="botao-voltar">Voltar</button>
+        </form>
+
+        <ul id="task-list">
+            <li>
+                <div class="cadastro-nova-tarefa">
+                    <h2 onclick="completeTask(event)" >Verificar todo o encanamento da cozinha</h2>
+                </div>
+            </li>
+            <li>
+                <div class="cadastro-nova-tarefa">
+                    <h2 onclick="completeTask(event)">Verificar toda a parte elétrica</h2>
+                </div>
+            </li>
+            <li>
+                <div class="cadastro-nova-tarefa">
+                    <h2 onclick="completeTask(event)">Instalar o deck da piscina</h2>
+                </div>
+            </li>
+        </ul>
+    </div> 
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="./main.js"></script>
+   
+   
+      
+</body>
+</html>
